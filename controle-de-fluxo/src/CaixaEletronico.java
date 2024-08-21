@@ -3,12 +3,12 @@ public class CaixaEletronico {
         double saldo = 25.0;
         double valorSolicitado = 22.0;
 
-        //CONDIÇÃO COMPOSTA - IF E ELSE
-        
-        if (valorSolicitado < saldo){
+        // CONDIÇÃO COMPOSTA - IF E ELSE
+
+        if (valorSolicitado < saldo) {
             saldo = saldo - valorSolicitado;
             System.out.println("Novo saldo: " + saldo);
-        }else
+        } else
             System.out.println("Saldo para saque insuficiente");
     }
 }
