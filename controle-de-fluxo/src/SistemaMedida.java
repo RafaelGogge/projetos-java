@@ -1,7 +1,7 @@
 public class SistemaMedida {
 
     public static void main(String[] args) {
-        String sigla = "M";
+        String sigla = "G";
 
         if (sigla == "P")
             System.out.println("Pequeno");
