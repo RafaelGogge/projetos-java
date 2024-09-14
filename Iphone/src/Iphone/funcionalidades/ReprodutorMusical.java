@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 public class ReprodutorMusical {
 
-    
-    
     public void selecionarMusica() {
         Scanner scanner = new Scanner(System.in);
         int escolha = 0;
