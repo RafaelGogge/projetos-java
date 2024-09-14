@@ -42,11 +42,12 @@ public class AparelhoTelefonico {
         System.out.println("\nSua chamada não foi atendida, iniciando correio de voz...");
         System.out.println("\nPor favor, deixe sua mensagem após o sinal.");
 
+        
         Scanner scanner = new Scanner(System.in);
         System.out.println("\n-----------------DEIXE SUA MENSAGEM--------------------\n");
 
         String mensagem = scanner.nextLine();
-        System.out.println("\n-----------------MENSAGEM REGISTRADA--------------------\n");
+        System.out.println("\n-----------------MENSAGEM REGISTRADA---------------------\n");
         System.out.println(mensagem);
         scanner.close();
     }
