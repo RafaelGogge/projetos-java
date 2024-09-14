@@ -57,4 +57,9 @@ public class ReprodutorMusical {
 
         scanner.close(); // Fechar o scanner após o uso
     }
+    public void pausarMusica(){
+        System.out.println("----------------------");
+        System.out.println("||  MÚSICA PAUSADA  ||");
+        System.out.println("----------------------");
+    }
 }
