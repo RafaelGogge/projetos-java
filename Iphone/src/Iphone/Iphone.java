@@ -1,7 +1,7 @@
 package Iphone;
 
 import Iphone.funcionalidades.AparelhoTelefonico;
-import Iphone.funcionalidades.NavegadorInternet;
+//import Iphone.funcionalidades.NavegadorInternet;
 //import Iphone.funcionalidades.ReprodutorMusical;
 
 public class Iphone {
@@ -9,7 +9,7 @@ public class Iphone {
 
         AparelhoTelefonico meuAparelho = new AparelhoTelefonico();
         // ReprodutorMusical meuReprodutorMusical = new ReprodutorMusical();
-        NavegadorInternet meuNavegador = new NavegadorInternet();
+        //NavegadorInternet meuNavegador = new NavegadorInternet();
 
         meuAparelho.realizarChamada();
         // meuAparelho.atenderChamada();
