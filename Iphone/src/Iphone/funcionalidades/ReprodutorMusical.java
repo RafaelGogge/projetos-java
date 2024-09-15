@@ -23,27 +23,36 @@ public class ReprodutorMusical {
                 escolha = scanner.nextInt();
                 if (escolha == 1) {
                     System.out.println("Musica Selecionada: Ranji x Ghost Rider - Freedom");
-                    System.out.println("Ouça no SoundCloud: https://soundcloud.com/ranji/ranji-ghost-rider-freedom-radio-edit?in=anders-kapila/sets/2022a1");
+                    System.out.println(
+                            "Ouça no SoundCloud: https://soundcloud.com/ranji/ranji-ghost-rider-freedom-radio-edit?in=anders-kapila/sets/2022a1");
+                    tocarMusica();
                     entradaValida = true;
-                    
+
                 } else if (escolha == 2) {
                     System.out.println("Musica Selecionada: Ghost Rider x Ranji ft. Stonefox - Garden");
-                    System.out.println("Ouça no SoundCloud: https://soundcloud.com/f-nix-6/ghost-rider-x-ranji-ft-stonefox-garden-fonix-rework");
+                    System.out.println(
+                            "Ouça no SoundCloud: https://soundcloud.com/f-nix-6/ghost-rider-x-ranji-ft-stonefox-garden-fonix-rework");
+                    tocarMusica();
                     entradaValida = true;
 
                 } else if (escolha == 3) {
                     System.out.println("Musica Selecionada: Liquid Soul & Zyce - Anjuna");
-                    System.out.println("Ouça no SoundCloud: https://soundcloud.com/ibogarecords/liquid-soul-zyce-anjuna?in=shahad-alkahtani/sets/psy");
+                    System.out.println(
+                            "Ouça no SoundCloud: https://soundcloud.com/ibogarecords/liquid-soul-zyce-anjuna?in=shahad-alkahtani/sets/psy");
+                    tocarMusica();
                     entradaValida = true;
-                    
+
                 } else if (escolha == 4) {
                     System.out.println("Musica Selecionada: Liquid Soul & Vini Vici - Universe Inside Me");
                     System.out.println("Ouça no SoundCloud: https://soundcloud.com/ibogarecords/liquid-soul-vini-vici");
+                    tocarMusica();
                     entradaValida = true;
 
                 } else if (escolha == 5) {
                     System.out.println("Musica Selecionada: Ghost Rider - We Are Together");
-                    System.out.println("Ouça no SoundCloud: https://soundcloud.com/ghostrider_mag/ghost-rider-we-are-the-people-free-download");
+                    System.out.println(
+                            "Ouça no SoundCloud: https://soundcloud.com/ghostrider_mag/ghost-rider-we-are-the-people-free-download");
+                    tocarMusica();
                     entradaValida = true;
                 } else {
                     System.out.println("Opção inválida! Por favor, escolha um número entre 1 e 5.");
@@ -57,9 +66,14 @@ public class ReprodutorMusical {
 
         scanner.close(); // Fechar o scanner após o uso
     }
-    public void pausarMusica(){
+
+    public void pausarMusica() {
         System.out.println("----------------------");
         System.out.println("||  MÚSICA PAUSADA  ||");
         System.out.println("----------------------");
+    }
+
+    public void tocarMusica() {
+        System.out.println("Reproduzir música no SoundCloud!\n CTRL + Clique para iniciar: https://soundcloud.com/");
     }
 }

@@ -14,7 +14,8 @@ public class NavegadorInternet {
 
         while (!entradaValida) {
             try {
-                System.out.println("Escolha uma opção: \n1 - Abrir YouTube\n2 - Abrir Chrome\n3 - Abrir Spotify\n4 - Abrir SoundCloud\n  Digite valores de 1 a 4: ");
+                System.out.println(
+                        "Escolha uma opção: \n1 - Abrir YouTube\n2 - Abrir Chrome\n3 - Abrir Spotify\n4 - Abrir SoundCloud\n  Digite valores de 1 a 4: ");
                 escolha = scanner.nextInt();
 
                 // Usando SWITCH-CASE para gerenciar as escolhas
@@ -34,7 +35,7 @@ public class NavegadorInternet {
                         System.out.println("O programa foi iniciado corretamente");
                         entradaValida = true; // Saída do loop
                         break;
-                    case 4: 
+                    case 4:
                         System.out.println("Abrindo SoundCloud");
                         System.out.println("O programa foi iniciado corretamente");
                         entradaValida = true;

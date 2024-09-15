@@ -5,9 +5,15 @@ import java.util.Scanner;
 
 public class AparelhoTelefonico {
 
+    public void realizarChamada() {
+        System.out.println("Iniciando ligação para 4002-8922");
+        iniciarChamada();
+    }
+
     public void iniciarChamada() {
         System.out.println("Voce está recebendo uma chamada telefonica");
         System.out.println("Digite 1 para atender a ligação ou 2 para recusa-la: ");
+        atenderChamada();
     }
 
     public void atenderChamada() {
@@ -21,6 +27,8 @@ public class AparelhoTelefonico {
                 escolha = scanner.nextInt();
                 if (escolha == 1) {
                     System.out.println("Chamada atendida!");
+                    System.out.println("\nYudi diz: Parabéns, você ganhou um playstation <3\n");
+                    System.out.println("Chamada encerrada!");
                     entradaValida = true;
 
                 } else if (escolha == 2) {
@@ -50,5 +58,4 @@ public class AparelhoTelefonico {
         System.out.println(mensagem);
         scanner.close();
     }
-
 }
