@@ -11,6 +11,7 @@ public class ReprodutorMusical {
         boolean entradaValida = false;
 
         while (!entradaValida) {
+            
             System.out.println("Escolha uma opção: \n");
             System.out.println("1. Freedom");
             System.out.println("2. Garden");
