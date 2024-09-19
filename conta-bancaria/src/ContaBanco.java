@@ -5,7 +5,7 @@ public class ContaBanco {
 
     public static void main(String[] args) throws Exception {
         try (Scanner scanner = new Scanner(System.in).useLocale(Locale.US)) {
-            System.out.println("Por favor, digite seu nome completo!");
+            System.out.println("Por favor, digite seu nome completo: ");
             String nomeCliente = scanner.nextLine();
 
             System.out.println("Por favor, digite o número de sua agência!");
